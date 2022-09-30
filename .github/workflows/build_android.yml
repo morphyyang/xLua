@@ -1,10 +1,6 @@
 name: build_android
 
-on: 
-  push:
-    paths: 
-      - build/**
-      - .github/workflows/build.yml
+on: workflow_dispatch
 
 jobs:
   android:
